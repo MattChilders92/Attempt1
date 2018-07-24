@@ -1,0 +1,40 @@
+.order-book__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.order-book__section {
+    display: flex;
+    min-width: 400px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+div#container
+{
+    width:250px;
+    height:800px;
+    overflow:hidden;
+    -webkit-resize:none; 
+    -moz-resize:none;
+    resize:none;
+    min-height:400px;
+}
+
+iframe#embed
+{
+    width:1000px;       /* set this to approximate width of entire page you're embedding */
+    height:2000px;      /* determines where the bottom of the page cuts off */
+    margin-left:-390px; /* clipping left side of page */
+    margin-top:-50px;  /* clipping top of page */
+    overflow:hidden;
+    /* resize seems to inherit in at least Firefox */
+    -webkit-resize:none;
+    -moz-resize:none;
+    resize:none;
+}
